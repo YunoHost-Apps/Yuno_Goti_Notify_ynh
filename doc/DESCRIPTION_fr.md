@@ -1,4 +1,4 @@
-#Yunohost_Gotify_Notifications
+# Yunohost_Gotify_Notifications
 Une collection de hooks Yunohost pour envoyer des notifications vers un serveur Gotify
 
 ## Fonctions :
