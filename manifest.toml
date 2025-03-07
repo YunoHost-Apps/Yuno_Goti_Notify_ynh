@@ -18,7 +18,7 @@ userdoc = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main
 code = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications"
 
 [integration]
-yunohost = ">= 12.1"
+yunohost = ">= 12.0"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
