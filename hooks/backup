@@ -1,0 +1,7 @@
+#!/bin/bash
+source /usr/share/yunohost/helpers
+current_date=$(date +"%d/%m/%Y %T")
+id=$YNH_APP_ID
+current_version=$YNH_APP_MANIFEST_VERSION
+notif="$current_date : Backup of App : $id $current_version successful"
+curl -X POST "https://__GOTIFYPATH__/message?token=__TOKEN__" -F "title=__SERVER__ - App Backup" -F "message=$notif" > /dev/null 2>&1

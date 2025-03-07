@@ -1,0 +1,5 @@
+#!/bin/bash
+source /usr/share/yunohost/helpers
+current_date=$(date +"%d/%m/%Y %T")
+notif="$current_date : Domain $1 removed"
+curl -X POST "https://__GOTIFYPATH__/message?token=__TOKEN__" -F "title=__SERVER__ - Domains" -F "message=$notif" > /dev/null 2>&1
