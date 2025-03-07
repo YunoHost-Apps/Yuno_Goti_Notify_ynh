@@ -12,7 +12,7 @@ version = "0.1~ynh1"
 maintainers = ["DeMiro5001"]
 
 [upstream]
-license = "GPL-3.0-only"
+license = "MIT"
 admindoc = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md"
 userdoc = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md"
 code = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications"
