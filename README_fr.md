@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-#Yunohost_Gotify_Notifications
+# Yunohost_Gotify_Notifications
 Une collection de hooks Yunohost pour envoyer des notifications vers un serveur Gotify
 
 ## Fonctions :
