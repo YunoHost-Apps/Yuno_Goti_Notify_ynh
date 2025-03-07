@@ -19,7 +19,7 @@ Nie powinno być ono edytowane ręcznie.
 ## Przegląd
 
 # Yunohost_Gotify_Notifications
-A collection of Yunohost webhooks to send notifications using Gotify
+A collection of Yunohost hooks to send notifications to a Gotify server
 
 ## Functions :
   * Get notified after adding a domain
