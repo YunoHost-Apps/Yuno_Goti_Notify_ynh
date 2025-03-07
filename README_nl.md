@@ -3,17 +3,17 @@ NB: Deze README is automatisch gegenereerd door <https://github.com/YunoHost/app
 Hij mag NIET handmatig aangepast worden.
 -->
 
-# Yunohost_Gotify_Notifications voor Yunohost
+# Yuno_Goti_Notify voor Yunohost
 
-[![Integratieniveau](https://apps.yunohost.org/badge/integration/yunohost_gotify_notifications)](https://ci-apps.yunohost.org/ci/apps/yunohost_gotify_notifications/)
-![Mate van functioneren](https://apps.yunohost.org/badge/state/yunohost_gotify_notifications)
-![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/yunohost_gotify_notifications)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/yuno_goti_notify)](https://ci-apps.yunohost.org/ci/apps/yuno_goti_notify/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/yuno_goti_notify)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/yuno_goti_notify)
 
-[![Yunohost_Gotify_Notifications met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yunohost_gotify_notifications)
+[![Yuno_Goti_Notify met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yuno_goti_notify)
 
 *[Deze README in een andere taal lezen.](./ALL_README.md)*
 
-> *Met dit pakket kun je Yunohost_Gotify_Notifications snel en eenvoudig op een YunoHost-server installeren.*  
+> *Met dit pakket kun je Yuno_Goti_Notify snel en eenvoudig op een YunoHost-server installeren.*  
 > *Als je nog geen YunoHost hebt, lees dan [de installatiehandleiding](https://yunohost.org/install), om te zien hoe je 'm installeert.*
 
 ## Overzicht
@@ -37,26 +37,26 @@ A collection of Yunohost webhooks to send notifications using Gotify
 
 ## Schermafdrukken
 
-![Schermafdrukken van Yunohost_Gotify_Notifications](./doc/screenshots/IMG_20241205_224629.png)
+![Schermafdrukken van Yuno_Goti_Notify](./doc/screenshots/IMG_20241205_224629.png)
 
 ## Documentatie en bronnen
 
 - Officiele gebruikersdocumentatie: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md>
 - Officiele beheerdersdocumentatie: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md>
 - Upstream app codedepot: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications>
-- YunoHost-store: <https://apps.yunohost.org/app/yunohost_gotify_notifications>
-- Meld een bug: <https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/issues>
+- YunoHost-store: <https://apps.yunohost.org/app/yuno_goti_notify>
+- Meld een bug: <https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/issues>
 
 ## Ontwikkelaarsinformatie
 
-Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing).
+Stuur je pull request alsjeblieft naar de [`testing`-branch](https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing).
 
 Om de `testing`-branch uit te proberen, ga als volgt te werk:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing --debug
 of
-sudo yunohost app upgrade yunohost_gotify_notifications -u https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing --debug
+sudo yunohost app upgrade yuno_goti_notify -u https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing --debug
 ```
 
 **Verdere informatie over app-packaging:** <https://yunohost.org/packaging_apps>

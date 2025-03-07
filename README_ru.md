@@ -3,17 +3,17 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# Yunohost_Gotify_Notifications для YunoHost
+# Yuno_Goti_Notify для YunoHost
 
-[![Уровень интеграции](https://apps.yunohost.org/badge/integration/yunohost_gotify_notifications)](https://ci-apps.yunohost.org/ci/apps/yunohost_gotify_notifications/)
-![Состояние работы](https://apps.yunohost.org/badge/state/yunohost_gotify_notifications)
-![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/yunohost_gotify_notifications)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/yuno_goti_notify)](https://ci-apps.yunohost.org/ci/apps/yuno_goti_notify/)
+![Состояние работы](https://apps.yunohost.org/badge/state/yuno_goti_notify)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/yuno_goti_notify)
 
-[![Установите Yunohost_Gotify_Notifications с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yunohost_gotify_notifications)
+[![Установите Yuno_Goti_Notify с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yuno_goti_notify)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить Yunohost_Gotify_Notifications быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить Yuno_Goti_Notify быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
@@ -37,26 +37,26 @@ A collection of Yunohost webhooks to send notifications using Gotify
 
 ## Снимки экрана
 
-![Снимок экрана Yunohost_Gotify_Notifications](./doc/screenshots/IMG_20241205_224629.png)
+![Снимок экрана Yuno_Goti_Notify](./doc/screenshots/IMG_20241205_224629.png)
 
 ## Документация и ресурсы
 
 - Официальная документация пользователя: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md>
 - Официальная документация администратора: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md>
 - Репозиторий кода главной ветки приложения: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications>
-- Магазин YunoHost: <https://apps.yunohost.org/app/yunohost_gotify_notifications>
-- Сообщите об ошибке: <https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/issues>
+- Магазин YunoHost: <https://apps.yunohost.org/app/yuno_goti_notify>
+- Сообщите об ошибке: <https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/issues>
 
 ## Информация для разработчиков
 
-Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing).
+Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing).
 
 Чтобы попробовать ветку `testing`, пожалуйста, сделайте что-то вроде этого:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing --debug
 или
-sudo yunohost app upgrade yunohost_gotify_notifications -u https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing --debug
+sudo yunohost app upgrade yuno_goti_notify -u https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing --debug
 ```
 
 **Больше информации о пакетировании приложений:** <https://yunohost.org/packaging_apps>

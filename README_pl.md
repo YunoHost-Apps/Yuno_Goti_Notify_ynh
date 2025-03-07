@@ -3,17 +3,17 @@ To README zostało automatycznie wygenerowane przez <https://github.com/YunoHost
 Nie powinno być ono edytowane ręcznie.
 -->
 
-# Yunohost_Gotify_Notifications dla YunoHost
+# Yuno_Goti_Notify dla YunoHost
 
-[![Poziom integracji](https://apps.yunohost.org/badge/integration/yunohost_gotify_notifications)](https://ci-apps.yunohost.org/ci/apps/yunohost_gotify_notifications/)
-![Status działania](https://apps.yunohost.org/badge/state/yunohost_gotify_notifications)
-![Status utrzymania](https://apps.yunohost.org/badge/maintained/yunohost_gotify_notifications)
+[![Poziom integracji](https://apps.yunohost.org/badge/integration/yuno_goti_notify)](https://ci-apps.yunohost.org/ci/apps/yuno_goti_notify/)
+![Status działania](https://apps.yunohost.org/badge/state/yuno_goti_notify)
+![Status utrzymania](https://apps.yunohost.org/badge/maintained/yuno_goti_notify)
 
-[![Zainstaluj Yunohost_Gotify_Notifications z YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yunohost_gotify_notifications)
+[![Zainstaluj Yuno_Goti_Notify z YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yuno_goti_notify)
 
 *[Przeczytaj plik README w innym języku.](./ALL_README.md)*
 
-> *Ta aplikacja pozwala na szybką i prostą instalację Yunohost_Gotify_Notifications na serwerze YunoHost.*  
+> *Ta aplikacja pozwala na szybką i prostą instalację Yuno_Goti_Notify na serwerze YunoHost.*  
 > *Jeżeli nie masz YunoHost zapoznaj się z [poradnikiem](https://yunohost.org/install) instalacji.*
 
 ## Przegląd
@@ -37,26 +37,26 @@ A collection of Yunohost webhooks to send notifications using Gotify
 
 ## Zrzuty ekranu
 
-![Zrzut ekranu z Yunohost_Gotify_Notifications](./doc/screenshots/IMG_20241205_224629.png)
+![Zrzut ekranu z Yuno_Goti_Notify](./doc/screenshots/IMG_20241205_224629.png)
 
 ## Dokumentacja i zasoby
 
 - Oficjalna dokumentacja: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md>
 - Oficjalna dokumentacja dla administratora: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main/README.md>
 - Repozytorium z kodem źródłowym: <https://github.com/DeMiro5001/Yunohost_Gotify_Notifications>
-- Sklep YunoHost: <https://apps.yunohost.org/app/yunohost_gotify_notifications>
-- Zgłaszanie błędów: <https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/issues>
+- Sklep YunoHost: <https://apps.yunohost.org/app/yuno_goti_notify>
+- Zgłaszanie błędów: <https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/issues>
 
 ## Informacje od twórców
 
-Wyślij swój pull request do [gałęzi `testing`](https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing).
+Wyślij swój pull request do [gałęzi `testing`](https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing).
 
 Aby wypróbować gałąź `testing` postępuj zgodnie z instrukcjami:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing --debug
 lub
-sudo yunohost app upgrade yunohost_gotify_notifications -u https://github.com/YunoHost-Apps/yunohost_gotify_notifications_ynh/tree/testing --debug
+sudo yunohost app upgrade yuno_goti_notify -u https://github.com/YunoHost-Apps/yuno_goti_notify_ynh/tree/testing --debug
 ```
 
 **Więcej informacji o tworzeniu paczek aplikacji:** <https://yunohost.org/packaging_apps>
