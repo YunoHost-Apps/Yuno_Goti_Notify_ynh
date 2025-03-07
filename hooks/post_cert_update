@@ -2,4 +2,4 @@
 source /usr/share/yunohost/helpers
 current_date=$(date +"%d/%m/%Y %T")
 notif="$current_date : Certificate for domain $1 updated"
-curl -X POST "https://__GOTIFYPATH__/message?token=__TOKEN__" -F "title=__SERVER__ - Certificates" -F "message=$notif" > /dev/null 2>&1
+curl -X POST "__GOTIFYPATH__/message?token=__TOKEN__" -F "title=__SERVER__ - Certificates" -F "message=$notif" > /dev/null 2>&1
