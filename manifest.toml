@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "yunohost_gotify_notifications"
-name = "Yunohost_Gotify_Notifications"
+id = "yuno_goti_notify"
+name = "Yuno_Goti_Notify"
 description.en = "A collection of Yunohost webhooks to send notifications using Gotify"
 description.fr = "Une collection de webhooks Yunohost pour envoyer des notifications en utilisant Gotify"
 
