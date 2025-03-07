@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "yuno_goti_notify"
 name = "Yuno_Goti_Notify"
-description.en = "A collection of Yunohost webhooks to send notifications using Gotify"
-description.fr = "Une collection de webhooks Yunohost pour envoyer des notifications en utilisant Gotify"
+description.en = "A collection of Yunohost hooks to send notifications to a Gotify server"
+description.fr = "Une collection de hooks Yunohost pour envoyer des notifications vers un serveur Gotify"
 
 version = "0.1~ynh1"
 
