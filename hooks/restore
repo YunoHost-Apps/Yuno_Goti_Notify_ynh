@@ -4,4 +4,4 @@ current_date=$(date +"%d/%m/%Y %T")
 id=$YNH_APP_ID
 current_version=$YNH_APP_MANIFEST_VERSION
 notif="$current_date : Restore of App : $id $current_version successful"
-curl -X POST "https://__GOTIFYPATH__/message?token=__TOKEN__" -F "title=__SERVER__ - App Restore" -F "message=$notif" > /dev/null 2>&1
+curl -X POST "__GOTIFYPATH__/message?token=__TOKEN__" -F "title=__SERVER__ - App Restore" -F "message=$notif" > /dev/null 2>&1
