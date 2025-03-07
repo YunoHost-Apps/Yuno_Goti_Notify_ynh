@@ -23,7 +23,7 @@ ynh_restore "$data_dir"
 # RESTORE VARIOUS FILES
 #=================================================
 
-ynh_config_add --template="$data_dir/src/etc/profile.d/gotify_ssh_login.sh" --destination="/etc/profile.d/gotify_ssh_login_$app.sh"
+ynh_config_add --template="$data_dir/etc/profile.d/gotify_ssh_login.sh" --destination="/etc/profile.d/gotify_ssh_login_$app.sh"
 
 #=================================================
 # END OF SCRIPT

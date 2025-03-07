@@ -18,7 +18,7 @@ userdoc = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications/blob/main
 code = "https://github.com/DeMiro5001/Yunohost_Gotify_Notifications"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.1"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -30,8 +30,8 @@ ram.runtime = "50M"
 
 [install]
     [install.gotify]
-    ask.en = "What's the url of your Gotify install ?"
-    ask.fr = "Quelle est l'addresse url de votre installation Gotify ?"
+    ask.en = "What's the url of your Gotify server ?"
+    ask.fr = "Quelle est l'addresse url de votre serveur Gotify ?"
     type = "url"
 
     [install.apptoken]

@@ -27,14 +27,14 @@ ynh_app_setting_set --key=server --value=$server
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-ynh_setup_source --dest_dir="$data_dir/src"
+ynh_setup_source --dest_dir="$data_dir"
 
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration files..."
 
-ynh_config_add --template="$data_dir/src/etc/profile.d/gotify_ssh_login.sh" --destination="/etc/profile.d/gotify_ssh_login_$app.sh"
+ynh_config_add --template="$data_dir/etc/profile.d/gotify_ssh_login.sh" --destination="/etc/profile.d/gotify_ssh_login_$app.sh"
 
 #=================================================
 # END OF SCRIPT

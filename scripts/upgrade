@@ -14,7 +14,7 @@ ynh_script_progression "Upgrading source files..."
 
 ynh_safe_rm $data_dir
 
-ynh_setup_source --dest_dir="$data_dir/src"
+ynh_setup_source --dest_dir="$data_dir"
 
 #=================================================
 # UPDATE A CONFIG FILE
@@ -23,7 +23,7 @@ ynh_script_progression "Updating $app's configuration files..."
 
 ynh_safe_rm  "/etc/profile.d/gotify_ssh_login_$app.sh"
 
-ynh_config_add --template="$data_dir/src/etc/profile.d/gotify_ssh_login.sh" --destination="/etc/profile.d/gotify_ssh_login_$app.sh"
+ynh_config_add --template="$data_dir/etc/profile.d/gotify_ssh_login.sh" --destination="/etc/profile.d/gotify_ssh_login_$app.sh"
 
 #=================================================
 # END OF SCRIPT
