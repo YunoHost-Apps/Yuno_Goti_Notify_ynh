@@ -1,5 +1,5 @@
 #Yunohost_Gotify_Notifications
-Une collection de webhooks Yunohost pour envoyer des notifications en utilisant Gotify
+Une collection de hooks Yunohost pour envoyer des notifications vers un serveur Gotify
 
 ## Fonctions :
 * Recevoir une notification après l'ajout d'un domaine
